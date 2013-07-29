@@ -1,0 +1,37 @@
+
+body {
+background-image:url('bg2.png');
+background-repeat:repeat;
+}
+.container{
+background-color:#ffffff;
+}
+#logo img{
+height:100px;
+}
+#fairtrade img{
+position:absolute;
+left:300px;
+top:25px;
+height:50px;
+}
+
+img.front3{
+display:block;
+float:left;
+width:250px;
+height:150px;
+margin-left:45px;
+border-style:solid;
+border-width:5px;
+border-top-width:35px;
+border-color:#507FA6;
+}
+
+.three_wide{
+width:960px;
+}
+
+h1{
+display:none;
+}
