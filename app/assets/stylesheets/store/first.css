@@ -6,9 +6,7 @@ background-repeat:repeat;
 .container{
 background-color:#ffffff;
 }
-#logo img{
-height:100px;
-}
+
 #fairtrade img{
 position:absolute;
 left:300px;
@@ -34,4 +32,8 @@ width:960px;
 
 h1{
 display:none;
+}
+
+#footer img{
+height:25px;
 }
