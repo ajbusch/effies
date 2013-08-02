@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: mysql
+  encoding: utf8
+  database: effies_production #following rails db naming convention
+  username: effiesdba
+  password: DBAeffiesSCUBA
+  host: mysql.effiesfairtrade.com
+  port: 3306  #not necessary since its the standard mysql port

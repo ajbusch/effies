@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby "1.9.3"
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -24,6 +24,7 @@ gem 'jquery-rails', '2.2.1'
 
 group :development do
   gem 'webrick', '~> 1.3.1'
+  gem 'capistrano'
 end
 
 # To use ActiveModel has_secure_password
@@ -36,7 +37,7 @@ end
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+
 
 # To use debugger
 # gem 'debugger'
